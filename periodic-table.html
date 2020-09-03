@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #d2b48c;
+      }
+      .top {
+        left: 24px;
+      }
+      .sidebar {
+        position: fixed;
+        background-color: rgb(36, 196, 31);
+        width: 20%;
+        border: dashed;
+        border: dotted;
+        border-color: brown;
+        margin-bottom: 15px;
+        font-style: italic;
+      }
+      .image-small {
+        width: 150px;
+      }
+      .image-medium {
+        width: 200px;
+      }
+      .black-frame {
+        border: 8px double rgb(38, 38, 38);
+      }
+      .gold-frame {
+        border: 10px ridge rgb(255, 183, 0);
+      }
+      .silver-frame {
+        border: 10px groove rgb(204, 204, 204);
+      }
+      .main {
+        float: right;
+        padding: 5px;
+        width: 75%;
+        border: dashed;
+        font-weight: bold;
+        border-top-width: 30px;
+        border: dotted;
+        color: red;
+        border-radius: 20px;
+        background-color: rgb(150, 153, 131);
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      p {
+        color: orange;
+        text-align: center;
+        font-style: italic;
+      }
+      h1 {
+        color: rgb(235, 227, 227);
+      }
+      h2 {
+        color: #72ee0de7;
+        text-align: center;
+      }
+
+      .metal {
+        color: red;
+      }
+      .non-metal {
+        color: blue;
+      }
+      .semi-metal {
+        color: purple;
+      }
+
+      h2.metal {
+        background-color: red;
+        color: white;
+      }
+      h2.non-metal {
+        background-color: blue;
+        color: white;
+      }
+      h2.semi-metal {
+        background-color: purple;
+        color: white;
+      }
+      .footer {
+        text-align: center;
+        clear: both;
+        color: orchid;
+        border: dashed;
+        padding: 21px;
+        border-radius: 91px;
+        border-style: solid;
+        border-color: brown;
+        background-color: blueviolet;
+      }
+      .footer2 {
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: blue;
+        background: khaki;
+        border-radius: 9px;
+        border-style: solid;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <h1>The Periodic Table</h1>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="#metal">Metals</a></li>
+        <li><a href="#nm">Non-metals</a></li>
+        <li><a href="#sm">semi-metals</a></li>
+        <br />
+        <li><a href="index.html">Home</a></li>
+        <li><a href="right-side.html">About Us</a></li>
+        <li><a href="periodic-table.html">Periodic Table</a></li>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="http://www.bible.com">Bible.com</a></li>
+      </ul>
+      <img
+        class="image-small black-frame"
+        src="https://www.kasandbox.org/programming-images/animals/cat.png"
+      />
+      <div class="footer2">Designed By Asher & Tasia</div>
+    </div>
+
+    <div class="main">
+      <div>
+        <p>
+          There are three broad classes of elements:
+          <strong class="metal">metals</strong>,
+          <strong class="non-metal">non-metals</strong>, and
+          <strong class="semi-metal">semi-metals</strong>.
+        </p>
+
+        <h2 id="metal" class="metal">Metals</h2>
+
+        <ul>
+          <li>Solid</li>
+          <li>Good conductors of electricity</li>
+          <li>Ductile</li>
+          <li>Malleable</li>
+        </ul>
+
+        <h2 id="non-metal" class="non-metal">Non-metals</h2>
+
+        <ul>
+          <li>Brittle</li>
+          <li>Poor conductors</li>
+        </ul>
+
+        <h2 id="semi-metal" class="semi-metal">Semi-metals (Metalloids)</h2>
+
+        <ul>
+          <li>Partially conduct electricity</li>
+        </ul>
+        <img
+          class="image-medium gold-frame"
+          src="https://www.kasandbox.org/programming-images/animals/fox.png"
+        />
+        <img
+          class="silver-frame image-medium"
+          src="https://www.kasandbox.org/programming-images/animals/penguins.png"
+        />
+      </div>
+    </div>
+    <div class="footer">Designed By Asher & Tasia</div>
+  </body>
+</html>
