@@ -7,7 +7,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(65, 63, 63, 0.363);
+  background-color: rgba(65, 63, 63, 0.445);
   overflow: hidden;
   margin-bottom: 10px;
 }
